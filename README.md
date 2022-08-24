@@ -24,15 +24,16 @@ Links : https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/window
 
 # Why to Use script : 
 
-This script help to list all object who do not possess the legitimate properties recommanded
+This script help to replace bad object owner by the recommend groups. 
 
 Prevent Attack : Kerberos Resource-based Constrained Delegation on Computer Object Takeover
 
 # How to use : 
 
- Copy the script from "Source Code" folder on ISE and lanuch it from the machine on the domain with sample user account
+ Copy the script from "Source Code" folder on ISE and lanuch it from the machine on the domain or on Domain Controller.
  
- No advance right is needed
+ The script need right administrator privilege and be run by a member of administrator domains.
+ 
  
  # Edit Script 
  
@@ -47,5 +48,6 @@ Prevent Attack : Kerberos Resource-based Constrained Delegation on Computer Obje
  
  Souin Mattieuw 
  Adham Bouomar
+ Guylaine NGOUDJO
  
  # Demo : 

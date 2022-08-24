@@ -307,7 +307,7 @@ $htmltest+= $ImageTag
 
 $htmltest+= "<h3>Correct-AD-Broken-Object-Owner (IT-connect) </h3>"
 $date = Get-Date
-$htmltest+= "<h3>By : DAKHAMA MEHDI   - Souin Matthieu  - Baomar Adham</h3>"
+$htmltest+= "<h3>By : DAKHAMA MEHDI   - Baomar Adham - Guylaine NGOUDJO</h3>"
 $htmltest+= "<h3>$date / Scanned Object : $nbrscanobject<h3>"
 
 $htmltest+= (ConvertTo-Html  -PreContent "<h1>Broken Users : $nbrbrokenusers</h1>" -Head $head) + ($brokenusers | ConvertTo-Html -PreContent "<h1> </h1>" -Head $head) +
